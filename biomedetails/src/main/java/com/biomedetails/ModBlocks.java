@@ -28,4 +28,9 @@ public class ModBlocks {
     public static final DeferredBlock<FlowerBlock> EMBER_SAGE = BLOCKS.registerBlock(
             "ember_sage", props -> new FlowerBlock(MobEffects.FIRE_RESISTANCE, 6.0F, props),
             () -> BlockBehaviour.Properties.ofFullCopy(Blocks.CORNFLOWER));
+
+    // Version blanca de la ember sage. Efecto de sopa sospechosa: Regeneracion 6 s
+    public static final DeferredBlock<FlowerBlock> WHITE_SAGE = BLOCKS.registerBlock(
+            "white_sage", props -> new FlowerBlock(MobEffects.REGENERATION, 6.0F, props),
+            () -> BlockBehaviour.Properties.ofFullCopy(Blocks.CORNFLOWER));
 }

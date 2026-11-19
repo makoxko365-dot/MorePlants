@@ -21,6 +21,7 @@ public class BiomeDetails {
             event.accept(ModItems.PURPLE_WILDFLOWERS.get());
             event.accept(ModItems.FROST_SAGE.get());
             event.accept(ModItems.EMBER_SAGE.get());
+            event.accept(ModItems.WHITE_SAGE.get());
         }
     }
 }
