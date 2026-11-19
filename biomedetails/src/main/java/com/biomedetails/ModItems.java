@@ -9,4 +9,5 @@ public class ModItems {
 
     public static final DeferredItem<BlockItem> FROZEN_BUSH = ITEMS.registerSimpleBlockItem(ModBlocks.FROZEN_BUSH);
     public static final DeferredItem<BlockItem> PURPLE_WILDFLOWERS = ITEMS.registerSimpleBlockItem(ModBlocks.PURPLE_WILDFLOWERS);
+    public static final DeferredItem<BlockItem> FROST_SAGE = ITEMS.registerSimpleBlockItem(ModBlocks.FROST_SAGE);
 }

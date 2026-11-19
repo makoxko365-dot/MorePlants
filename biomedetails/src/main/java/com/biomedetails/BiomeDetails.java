@@ -19,6 +19,7 @@ public class BiomeDetails {
         if (event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
             event.accept(ModItems.FROZEN_BUSH.get());
             event.accept(ModItems.PURPLE_WILDFLOWERS.get());
+            event.accept(ModItems.FROST_SAGE.get());
         }
     }
 }
