@@ -1,0 +1,8 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "minecraft:dark_forest"
+  ],
+  "features": "biomedetails:purple_wildflowers_dark_forest",
+  "step": "vegetal_decoration"
+}

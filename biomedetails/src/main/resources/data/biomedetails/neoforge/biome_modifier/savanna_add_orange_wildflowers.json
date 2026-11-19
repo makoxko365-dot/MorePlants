@@ -1,0 +1,9 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "minecraft:savanna",
+    "minecraft:savanna_plateau"
+  ],
+  "features": "biomedetails:orange_wildflowers_savanna",
+  "step": "vegetal_decoration"
+}
