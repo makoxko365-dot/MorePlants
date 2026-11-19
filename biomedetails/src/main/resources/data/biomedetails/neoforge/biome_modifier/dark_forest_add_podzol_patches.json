@@ -1,0 +1,8 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "minecraft:dark_forest"
+  ],
+  "features": "biomedetails:podzol_mushroom_patch",
+  "step": "underground_ores"
+}
