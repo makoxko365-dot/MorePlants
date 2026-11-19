@@ -1,46 +1,15 @@
 {
-  "type": "minecraft:random_patch",
-  "tries": 32,
-  "xz_spread": 5,
-  "y_spread": 2,
-  "feature": {
-    "feature": {
-      "type": "minecraft:simple_block",
-      "to_place": {
-        "type": "minecraft:weighted",
-        "entries": [
-          {
-            "data": "minecraft:short_dry_grass",
-            "weight": 3
-          },
-          {
-            "data": "minecraft:tall_dry_grass",
-            "weight": 1
-          }
-        ]
-      }
-    },
-    "placement": [
+  "type": "minecraft:simple_block",
+  "to_place": {
+    "type": "minecraft:weighted",
+    "entries": [
       {
-        "type": "minecraft:block_predicate_filter",
-        "predicate": {
-          "type": "minecraft:all_of",
-          "predicates": [
-            {
-              "type": "minecraft:matching_block_tag",
-              "tag": "minecraft:air"
-            },
-            {
-              "type": "minecraft:matching_blocks",
-              "blocks": "minecraft:sand",
-              "offset": [
-                0,
-                -1,
-                0
-              ]
-            }
-          ]
-        }
+        "data": "minecraft:short_dry_grass",
+        "weight": 3
+      },
+      {
+        "data": "minecraft:tall_dry_grass",
+        "weight": 1
       }
     ]
   }
