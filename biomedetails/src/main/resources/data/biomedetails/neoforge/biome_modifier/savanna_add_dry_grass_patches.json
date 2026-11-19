@@ -1,0 +1,9 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "minecraft:savanna",
+    "minecraft:savanna_plateau"
+  ],
+  "features": "biomedetails:savanna_dry_grass_patch",
+  "step": "vegetal_decoration"
+}

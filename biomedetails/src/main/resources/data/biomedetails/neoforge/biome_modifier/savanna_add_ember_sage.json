@@ -1,0 +1,9 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "minecraft:savanna",
+    "minecraft:savanna_plateau"
+  ],
+  "features": "biomedetails:patch_ember_sage",
+  "step": "vegetal_decoration"
+}
