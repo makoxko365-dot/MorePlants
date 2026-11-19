@@ -6,7 +6,7 @@ license = "${mod_license}"
 modId = "${mod_id}"
 version = "${mod_version}"
 displayName = "${mod_name}"
-description = '''Anade detalles a biomas del overworld: hongos de estante en arboles de bosques, arbustos congelados en biomas nevados wildflowers moradas en taigas, salvia blanca en bosques de abedul, lodo y hongos en pantanos, pasto seco en playas y sabanas, ember sage en sabanas y wildflowers naranjas en dark forest.'''
+description = '''Anade detalles a biomas del overworld: hongos de estante en arboles de bosques, arbustos congelados en biomas nevados wildflowers moradas en taigas, salvia blanca en bosques de abedul, lodo y hongos en pantanos, pasto seco en playas y sabanas, ember sage y wildflowers naranjas en sabanas, y wildflowers moradas en dark forest.'''
 
 [[dependencies.${mod_id}]]
 modId = "neoforge"
