@@ -19,6 +19,10 @@ public class ModBlocks {
     public static final DeferredBlock<PurpleWildflowersBlock> PURPLE_WILDFLOWERS = BLOCKS.registerBlock(
             "purple_wildflowers", PurpleWildflowersBlock::new, () -> BlockBehaviour.Properties.ofFullCopy(Blocks.WILDFLOWERS));
 
+    // Version naranja de las purple wildflowers
+    public static final DeferredBlock<OrangeWildflowersBlock> ORANGE_WILDFLOWERS = BLOCKS.registerBlock(
+            "orange_wildflowers", OrangeWildflowersBlock::new, () -> BlockBehaviour.Properties.ofFullCopy(Blocks.WILDFLOWERS));
+
     // Flor nueva. Propiedades copiadas de la cornflower; efecto de sopa sospechosa: Resistencia 6 s
     public static final DeferredBlock<FlowerBlock> FROST_SAGE = BLOCKS.registerBlock(
             "frost_sage", props -> new FlowerBlock(MobEffects.RESISTANCE, 6.0F, props),
