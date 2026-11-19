@@ -23,4 +23,9 @@ public class ModBlocks {
     public static final DeferredBlock<FlowerBlock> FROST_SAGE = BLOCKS.registerBlock(
             "frost_sage", props -> new FlowerBlock(MobEffects.RESISTANCE, 6.0F, props),
             () -> BlockBehaviour.Properties.ofFullCopy(Blocks.CORNFLOWER));
+
+    // Version naranja de la frost sage. Efecto de sopa sospechosa: Resistencia al fuego 6 s
+    public static final DeferredBlock<FlowerBlock> EMBER_SAGE = BLOCKS.registerBlock(
+            "ember_sage", props -> new FlowerBlock(MobEffects.FIRE_RESISTANCE, 6.0F, props),
+            () -> BlockBehaviour.Properties.ofFullCopy(Blocks.CORNFLOWER));
 }
