@@ -1,0 +1,12 @@
+{
+  "feature": "biomedetails:fallen_oak_tree_shelf",
+  "placement": [
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:would_survive",
+        "state": "minecraft:oak_sapling"
+      }
+    }
+  ]
+}

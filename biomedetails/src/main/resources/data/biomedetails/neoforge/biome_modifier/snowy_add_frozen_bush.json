@@ -1,0 +1,9 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "minecraft:snowy_plains",
+    "minecraft:snowy_taiga"
+  ],
+  "features": "biomedetails:patch_frozen_bush",
+  "step": "vegetal_decoration"
+}

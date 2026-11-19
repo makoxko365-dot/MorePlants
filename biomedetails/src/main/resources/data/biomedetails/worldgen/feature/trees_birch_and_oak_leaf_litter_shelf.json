@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:random_selector",
+  "default": "biomedetails:oak_bees_0002_leaf_litter_shelf",
+  "features": [
+    {
+      "chance": 0.0025,
+      "feature": "biomedetails:fallen_birch_tree_shelf"
+    },
+    {
+      "chance": 0.2,
+      "feature": "biomedetails:birch_bees_0002_leaf_litter_shelf"
+    },
+    {
+      "chance": 0.1,
+      "feature": "biomedetails:fancy_oak_bees_0002_leaf_litter_shelf"
+    },
+    {
+      "chance": 0.0125,
+      "feature": "biomedetails:fallen_oak_tree_shelf"
+    }
+  ]
+}

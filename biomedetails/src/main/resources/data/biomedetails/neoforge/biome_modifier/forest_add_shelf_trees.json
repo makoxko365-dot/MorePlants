@@ -1,0 +1,8 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "minecraft:forest"
+  ],
+  "features": "biomedetails:trees_birch_and_oak_leaf_litter_shelf",
+  "step": "vegetal_decoration"
+}

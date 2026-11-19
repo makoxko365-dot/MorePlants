@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:random_selector",
+  "default": "biomedetails:birch_bees_0002_shelf",
+  "features": [
+    {
+      "chance": 0.00625,
+      "feature": "biomedetails:fallen_super_birch_tree_shelf"
+    },
+    {
+      "chance": 0.5,
+      "feature": "biomedetails:super_birch_bees_0002_shelf"
+    },
+    {
+      "chance": 0.0125,
+      "feature": "biomedetails:fallen_birch_tree_shelf"
+    }
+  ]
+}

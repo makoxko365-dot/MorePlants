@@ -1,0 +1,8 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "minecraft:old_growth_birch_forest"
+  ],
+  "features": "biomedetails:birch_tall_shelf",
+  "step": "vegetal_decoration"
+}
