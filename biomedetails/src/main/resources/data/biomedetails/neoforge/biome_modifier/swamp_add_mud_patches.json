@@ -1,0 +1,8 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "minecraft:swamp"
+  ],
+  "features": "biomedetails:swamp_mud_patch",
+  "step": "underground_ores"
+}

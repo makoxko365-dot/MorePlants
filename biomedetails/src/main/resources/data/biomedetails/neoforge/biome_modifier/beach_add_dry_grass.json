@@ -1,0 +1,8 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "minecraft:beach"
+  ],
+  "features": "biomedetails:beach_dry_grass_patch",
+  "step": "vegetal_decoration"
+}

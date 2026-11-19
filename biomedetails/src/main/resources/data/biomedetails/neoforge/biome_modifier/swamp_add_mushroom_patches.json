@@ -1,0 +1,8 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "minecraft:swamp"
+  ],
+  "features": "biomedetails:swamp_mushroom_patch",
+  "step": "vegetal_decoration"
+}
