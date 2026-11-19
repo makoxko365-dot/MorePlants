@@ -1,7 +1,7 @@
 # Biome Details (NeoForge 26.3)
 
-Copia la carpeta `src/` dentro de tu proyecto MDK (mezclando con la existente) y borra el `ExampleMod` del MDK.
-Si tu MDK ya trae `neoforge.mods.toml`, conserva el tuyo (loaderVersion, etc.) y solo pon `modId = "biomedetails"`.
+
+
 
 ## Que hace
 1. Hongos de estante (shelf_mushroom) en arboles de `forest` y `old_growth_birch_forest`
