@@ -3,6 +3,7 @@ package com.biomedetails;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.BushBlock;
+import net.minecraft.world.level.block.CarvedPumpkinBlock;
 import net.minecraft.world.level.block.FlowerBlock;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.neoforged.neoforge.registries.DeferredBlock;
@@ -37,4 +38,8 @@ public class ModBlocks {
     public static final DeferredBlock<FlowerBlock> WHITE_SAGE = BLOCKS.registerBlock(
             "white_sage", props -> new FlowerBlock(MobEffects.REGENERATION, 6.0F, props),
             () -> BlockBehaviour.Properties.ofFullCopy(Blocks.CORNFLOWER));
+
+    // Jack o'lantern blanca. Mismas propiedades que la jack o'lantern vanilla (luz 15, etc.)
+    public static final DeferredBlock<CarvedPumpkinBlock> WHITE_JACK_O_LANTERN = BLOCKS.registerBlock(
+            "white_jack_o_lantern", CarvedPumpkinBlock::new, () -> BlockBehaviour.Properties.ofFullCopy(Blocks.JACK_O_LANTERN));
 }
