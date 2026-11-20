@@ -1,0 +1,8 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "minecraft:dappled_forest"
+  ],
+  "features": "biomedetails:pumpkin_patch_dappled_forest",
+  "step": "vegetal_decoration"
+}
