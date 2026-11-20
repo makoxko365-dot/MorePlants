@@ -1,0 +1,76 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "biomedetails:pale_rose_bush",
+          "conditions": [
+            {
+              "condition": "minecraft:block_state_property",
+              "block": "biomedetails:pale_rose_bush",
+              "properties": {
+                "half": "lower"
+              }
+            },
+            {
+              "condition": "minecraft:location_check",
+              "offsetY": 1,
+              "predicate": {
+                "block": {
+                  "blocks": "biomedetails:pale_rose_bush",
+                  "state": {
+                    "half": "upper"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "biomedetails:pale_rose_bush",
+          "conditions": [
+            {
+              "condition": "minecraft:block_state_property",
+              "block": "biomedetails:pale_rose_bush",
+              "properties": {
+                "half": "upper"
+              }
+            },
+            {
+              "condition": "minecraft:location_check",
+              "offsetY": -1,
+              "predicate": {
+                "block": {
+                  "blocks": "biomedetails:pale_rose_bush",
+                  "state": {
+                    "half": "lower"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "random_sequence": "biomedetails:blocks/pale_rose_bush"
+}

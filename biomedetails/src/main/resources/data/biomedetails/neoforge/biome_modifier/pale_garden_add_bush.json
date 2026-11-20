@@ -1,0 +1,8 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "minecraft:pale_garden"
+  ],
+  "features": "biomedetails:patch_bush_woodland",
+  "step": "vegetal_decoration"
+}

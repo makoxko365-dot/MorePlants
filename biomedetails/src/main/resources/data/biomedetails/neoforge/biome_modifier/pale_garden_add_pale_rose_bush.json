@@ -1,0 +1,8 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "minecraft:pale_garden"
+  ],
+  "features": "biomedetails:pale_rose_bush_patch",
+  "step": "vegetal_decoration"
+}
