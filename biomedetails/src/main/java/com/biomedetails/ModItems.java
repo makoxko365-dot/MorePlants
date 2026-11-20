@@ -14,4 +14,5 @@ public class ModItems {
     public static final DeferredItem<BlockItem> EMBER_SAGE = ITEMS.registerSimpleBlockItem(ModBlocks.EMBER_SAGE);
     public static final DeferredItem<BlockItem> WHITE_SAGE = ITEMS.registerSimpleBlockItem(ModBlocks.WHITE_SAGE);
     public static final DeferredItem<BlockItem> WHITE_JACK_O_LANTERN = ITEMS.registerSimpleBlockItem(ModBlocks.WHITE_JACK_O_LANTERN);
+    public static final DeferredItem<BlockItem> PALE_ROSE_BUSH = ITEMS.registerSimpleBlockItem(ModBlocks.PALE_ROSE_BUSH);
 }

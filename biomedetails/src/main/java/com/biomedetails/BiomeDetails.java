@@ -24,6 +24,7 @@ public class BiomeDetails {
             event.accept(ModItems.EMBER_SAGE.get());
             event.accept(ModItems.WHITE_SAGE.get());
             event.accept(ModItems.WHITE_JACK_O_LANTERN.get());
+            event.accept(ModItems.PALE_ROSE_BUSH.get());
         }
     }
 }

@@ -42,4 +42,8 @@ public class ModBlocks {
     // Jack o'lantern blanca. Mismas propiedades que la jack o'lantern vanilla (luz 15, etc.)
     public static final DeferredBlock<CarvedPumpkinBlock> WHITE_JACK_O_LANTERN = BLOCKS.registerBlock(
             "white_jack_o_lantern", CarvedPumpkinBlock::new, () -> BlockBehaviour.Properties.ofFullCopy(Blocks.JACK_O_LANTERN));
+
+    // Rosal palido: mismas propiedades que el rose bush vanilla
+    public static final DeferredBlock<PaleRoseBushBlock> PALE_ROSE_BUSH = BLOCKS.registerBlock(
+            "pale_rose_bush", PaleRoseBushBlock::new, () -> BlockBehaviour.Properties.ofFullCopy(Blocks.ROSE_BUSH));
 }
