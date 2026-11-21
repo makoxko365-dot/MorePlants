@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:simple_block",
+  "to_place": {
+    "id": "biomedetails:small_yellow_amethyst_bud",
+    "properties": {
+      "facing": "west",
+      "waterlogged": "false"
+    }
+  }
+}
