@@ -12,6 +12,7 @@ public class BiomeDetails {
     public BiomeDetails(IEventBus modEventBus) {
         ModBlocks.BLOCKS.register(modEventBus);
         ModItems.ITEMS.register(modEventBus);
+        ModParticles.PARTICLE_TYPES.register(modEventBus);
         modEventBus.addListener(this::addCreative);
     }
 
@@ -30,6 +31,7 @@ public class BiomeDetails {
             event.accept(ModItems.SCULK_PROTRUSION.get());
             event.accept(ModItems.SULFUR_CRYSTAL_SMALL.get());
             event.accept(ModItems.SULFUR_CRYSTAL_MEDIUM.get());
+            event.accept(ModItems.SULFUR_VENT.get());
         }
     }
 }

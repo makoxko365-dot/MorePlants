@@ -75,4 +75,9 @@ public class ModBlocks {
     public static final DeferredBlock<AmethystClusterBlock> SULFUR_CRYSTAL_MEDIUM = BLOCKS.registerBlock(
             "sulfur_crystal_medium", props -> new AmethystClusterBlock(4.0F, 3.0F, props),
             () -> BlockBehaviour.Properties.ofFullCopy(Blocks.MEDIUM_AMETHYST_BUD));
+
+    // Respiradero de azufre: forma del heavy core, textura de cinabrio, humo toxico
+    public static final DeferredBlock<SulfurVentBlock> SULFUR_VENT = BLOCKS.registerBlock(
+            "sulfur_vent", SulfurVentBlock::new,
+            () -> BlockBehaviour.Properties.ofFullCopy(Blocks.HEAVY_CORE).strength(3.0F, 6.0F).sound(SoundType.STONE));
 }

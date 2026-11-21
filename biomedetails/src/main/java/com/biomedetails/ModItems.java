@@ -20,4 +20,5 @@ public class ModItems {
     public static final DeferredItem<BlockItem> SCULK_PROTRUSION = ITEMS.registerSimpleBlockItem(ModBlocks.SCULK_PROTRUSION);
     public static final DeferredItem<BlockItem> SULFUR_CRYSTAL_SMALL = ITEMS.registerSimpleBlockItem(ModBlocks.SULFUR_CRYSTAL_SMALL);
     public static final DeferredItem<BlockItem> SULFUR_CRYSTAL_MEDIUM = ITEMS.registerSimpleBlockItem(ModBlocks.SULFUR_CRYSTAL_MEDIUM);
+    public static final DeferredItem<BlockItem> SULFUR_VENT = ITEMS.registerSimpleBlockItem(ModBlocks.SULFUR_VENT);
 }
