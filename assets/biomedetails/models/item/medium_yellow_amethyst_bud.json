@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "biomedetails:block/medium_yellow_amethyst_bud"
+  }
+}
