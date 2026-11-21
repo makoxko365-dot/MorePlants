@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:block_column",
+  "allowed_placement": {
+    "type": "minecraft:matching_blocks",
+    "blocks": [
+      "minecraft:air"
+    ]
+  },
+  "direction": "up",
+  "layers": [
+    {
+      "height": {
+        "type": "minecraft:biased_to_bottom",
+        "min_inclusive": 1,
+        "max_inclusive": 3
+      },
+      "provider": {
+        "id": "biomedetails:sculk_twisting_vines_plant"
+      }
+    },
+    {
+      "height": 1,
+      "provider": {
+        "id": "biomedetails:sculk_twisting_vines",
+        "properties": {
+          "age": "25"
+        }
+      }
+    }
+  ],
+  "prioritize_tip": true
+}

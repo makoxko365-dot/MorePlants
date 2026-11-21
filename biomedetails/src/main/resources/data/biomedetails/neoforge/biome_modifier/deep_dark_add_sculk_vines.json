@@ -1,0 +1,15 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "minecraft:deep_dark"
+  ],
+  "features": [
+    "biomedetails:sculk_weeping_vines_patch_small",
+    "biomedetails:sculk_weeping_vines_patch_medium",
+    "biomedetails:sculk_weeping_vines_patch_large",
+    "biomedetails:sculk_twisting_vines_patch_small",
+    "biomedetails:sculk_twisting_vines_patch_medium",
+    "biomedetails:sculk_twisting_vines_patch_large"
+  ],
+  "step": "vegetal_decoration"
+}

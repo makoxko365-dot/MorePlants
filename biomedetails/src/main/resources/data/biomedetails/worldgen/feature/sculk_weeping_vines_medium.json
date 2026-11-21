@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:block_column",
+  "allowed_placement": {
+    "type": "minecraft:matching_blocks",
+    "blocks": [
+      "minecraft:air"
+    ]
+  },
+  "direction": "down",
+  "layers": [
+    {
+      "height": {
+        "type": "minecraft:biased_to_bottom",
+        "min_inclusive": 2,
+        "max_inclusive": 8
+      },
+      "provider": {
+        "id": "biomedetails:sculk_weeping_vines_plant"
+      }
+    },
+    {
+      "height": 1,
+      "provider": {
+        "id": "biomedetails:sculk_weeping_vines",
+        "properties": {
+          "age": "25"
+        }
+      }
+    }
+  ],
+  "prioritize_tip": true
+}
