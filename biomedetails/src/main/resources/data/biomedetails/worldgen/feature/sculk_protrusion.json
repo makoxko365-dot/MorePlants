@@ -1,6 +1,9 @@
 {
   "type": "minecraft:simple_block",
   "to_place": {
-    "id": "biomedetails:sculk_protrusion"
+    "id": "biomedetails:sculk_protrusion",
+    "properties": {
+      "waterlogged": "false"
+    }
   }
 }
