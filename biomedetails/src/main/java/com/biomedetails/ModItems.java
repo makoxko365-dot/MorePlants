@@ -17,4 +17,5 @@ public class ModItems {
     public static final DeferredItem<BlockItem> PALE_ROSE_BUSH = ITEMS.registerSimpleBlockItem(ModBlocks.PALE_ROSE_BUSH);
     public static final DeferredItem<BlockItem> SCULK_WEEPING_VINES = ITEMS.registerSimpleBlockItem(ModBlocks.SCULK_WEEPING_VINES);
     public static final DeferredItem<BlockItem> SCULK_TWISTING_VINES = ITEMS.registerSimpleBlockItem(ModBlocks.SCULK_TWISTING_VINES);
+    public static final DeferredItem<BlockItem> SCULK_PROTRUSION = ITEMS.registerSimpleBlockItem(ModBlocks.SCULK_PROTRUSION);
 }

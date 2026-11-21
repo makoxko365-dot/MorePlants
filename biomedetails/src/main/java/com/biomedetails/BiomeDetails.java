@@ -27,6 +27,7 @@ public class BiomeDetails {
             event.accept(ModItems.PALE_ROSE_BUSH.get());
             event.accept(ModItems.SCULK_WEEPING_VINES.get());
             event.accept(ModItems.SCULK_TWISTING_VINES.get());
+            event.accept(ModItems.SCULK_PROTRUSION.get());
         }
     }
 }

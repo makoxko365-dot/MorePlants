@@ -61,4 +61,9 @@ public class ModBlocks {
     public static final DeferredBlock<SculkTwistingVinesPlantBlock> SCULK_TWISTING_VINES_PLANT = BLOCKS.registerBlock(
             "sculk_twisting_vines_plant", SculkTwistingVinesPlantBlock::new,
             () -> BlockBehaviour.Properties.ofFullCopy(Blocks.TWISTING_VINES_PLANT).sound(SoundType.SCULK_VEIN));
+
+    // Protuberancia sculk: mismas propiedades que el dead tube coral, con sonido de sculk sensor
+    public static final DeferredBlock<SculkProtrusionBlock> SCULK_PROTRUSION = BLOCKS.registerBlock(
+            "sculk_protrusion", SculkProtrusionBlock::new,
+            () -> BlockBehaviour.Properties.ofFullCopy(Blocks.DEAD_TUBE_CORAL).sound(SoundType.SCULK_SENSOR));
 }
