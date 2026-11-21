@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "biomedetails:block/sculk_weeping_vines"
+  }
+}

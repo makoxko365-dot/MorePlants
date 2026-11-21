@@ -6,5 +6,9 @@
   "block.biomedetails.ember_sage": "Ember Sage",
   "block.biomedetails.white_sage": "White Sage",
   "block.biomedetails.white_jack_o_lantern": "White Jack o'Lantern",
-  "block.biomedetails.pale_rose_bush": "Pale Rose Bush"
+  "block.biomedetails.pale_rose_bush": "Pale Rose Bush",
+  "block.biomedetails.sculk_weeping_vines": "Sculk Weeping Vines",
+  "block.biomedetails.sculk_weeping_vines_plant": "Sculk Weeping Vines Plant",
+  "block.biomedetails.sculk_twisting_vines": "Sculk Twisting Vines",
+  "block.biomedetails.sculk_twisting_vines_plant": "Sculk Twisting Vines Plant"
 }
