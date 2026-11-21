@@ -1,9 +1,0 @@
-{
-  "parent": "minecraft:block/orientable",
-  "textures": {
-    "top": "biomedetails:block/white_pumpkin_top",
-    "front": "biomedetails:block/white_jack_o_lantern",
-    "side": "biomedetails:block/white_pumpkin_side",
-    "particle": "biomedetails:block/white_pumpkin_side"
-  }
-}
