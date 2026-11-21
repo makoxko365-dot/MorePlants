@@ -68,11 +68,11 @@ public class ModBlocks {
             "sculk_protrusion", SculkProtrusionBlock::new,
             () -> BlockBehaviour.Properties.ofFullCopy(Blocks.DEAD_TUBE_CORAL).sound(SoundType.SCULK_SENSOR));
 
-    // Brotes de amatista amarillos: mismas propiedades (luz, sonido) y forma que los vanilla
-    public static final DeferredBlock<AmethystClusterBlock> SMALL_YELLOW_AMETHYST_BUD = BLOCKS.registerBlock(
-            "small_yellow_amethyst_bud", props -> new AmethystClusterBlock(3.0F, 4.0F, props),
+    // Cristales de azufre (small/medium): mismas propiedades (luz, sonido) y forma que los vanilla
+    public static final DeferredBlock<AmethystClusterBlock> SULFUR_CRYSTAL_SMALL = BLOCKS.registerBlock(
+            "sulfur_crystal_small", props -> new AmethystClusterBlock(3.0F, 4.0F, props),
             () -> BlockBehaviour.Properties.ofFullCopy(Blocks.SMALL_AMETHYST_BUD));
-    public static final DeferredBlock<AmethystClusterBlock> MEDIUM_YELLOW_AMETHYST_BUD = BLOCKS.registerBlock(
-            "medium_yellow_amethyst_bud", props -> new AmethystClusterBlock(4.0F, 3.0F, props),
+    public static final DeferredBlock<AmethystClusterBlock> SULFUR_CRYSTAL_MEDIUM = BLOCKS.registerBlock(
+            "sulfur_crystal_medium", props -> new AmethystClusterBlock(4.0F, 3.0F, props),
             () -> BlockBehaviour.Properties.ofFullCopy(Blocks.MEDIUM_AMETHYST_BUD));
 }

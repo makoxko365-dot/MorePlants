@@ -18,6 +18,6 @@ public class ModItems {
     public static final DeferredItem<BlockItem> SCULK_WEEPING_VINES = ITEMS.registerSimpleBlockItem(ModBlocks.SCULK_WEEPING_VINES);
     public static final DeferredItem<BlockItem> SCULK_TWISTING_VINES = ITEMS.registerSimpleBlockItem(ModBlocks.SCULK_TWISTING_VINES);
     public static final DeferredItem<BlockItem> SCULK_PROTRUSION = ITEMS.registerSimpleBlockItem(ModBlocks.SCULK_PROTRUSION);
-    public static final DeferredItem<BlockItem> SMALL_YELLOW_AMETHYST_BUD = ITEMS.registerSimpleBlockItem(ModBlocks.SMALL_YELLOW_AMETHYST_BUD);
-    public static final DeferredItem<BlockItem> MEDIUM_YELLOW_AMETHYST_BUD = ITEMS.registerSimpleBlockItem(ModBlocks.MEDIUM_YELLOW_AMETHYST_BUD);
+    public static final DeferredItem<BlockItem> SULFUR_CRYSTAL_SMALL = ITEMS.registerSimpleBlockItem(ModBlocks.SULFUR_CRYSTAL_SMALL);
+    public static final DeferredItem<BlockItem> SULFUR_CRYSTAL_MEDIUM = ITEMS.registerSimpleBlockItem(ModBlocks.SULFUR_CRYSTAL_MEDIUM);
 }
