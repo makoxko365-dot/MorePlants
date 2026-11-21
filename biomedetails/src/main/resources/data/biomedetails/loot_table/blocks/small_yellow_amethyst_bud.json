@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "condition": {
+        "type": "minecraft:any_of",
+        "terms": [
+          "minecraft:tool/can_silk_touch"
+        ]
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "biomedetails:small_yellow_amethyst_bud"
+        }
+      ],
+      "rolls": 1
+    }
+  ],
+  "random_sequence": "biomedetails:blocks/small_yellow_amethyst_bud"
+}
