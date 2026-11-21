@@ -5,6 +5,7 @@ import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.BushBlock;
 import net.minecraft.world.level.block.CarvedPumpkinBlock;
 import net.minecraft.world.level.block.FlowerBlock;
+import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredRegister;
@@ -46,4 +47,18 @@ public class ModBlocks {
     // Rosal palido: mismas propiedades que el rose bush vanilla
     public static final DeferredBlock<PaleRoseBushBlock> PALE_ROSE_BUSH = BLOCKS.registerBlock(
             "pale_rose_bush", PaleRoseBushBlock::new, () -> BlockBehaviour.Properties.ofFullCopy(Blocks.ROSE_BUSH));
+
+    // Enredaderas del nether en version sculk (cabeza + cuerpo, como las vanilla)
+    public static final DeferredBlock<SculkWeepingVinesBlock> SCULK_WEEPING_VINES = BLOCKS.registerBlock(
+            "sculk_weeping_vines", SculkWeepingVinesBlock::new,
+            () -> BlockBehaviour.Properties.ofFullCopy(Blocks.WEEPING_VINES).sound(SoundType.SCULK_VEIN));
+    public static final DeferredBlock<SculkWeepingVinesPlantBlock> SCULK_WEEPING_VINES_PLANT = BLOCKS.registerBlock(
+            "sculk_weeping_vines_plant", SculkWeepingVinesPlantBlock::new,
+            () -> BlockBehaviour.Properties.ofFullCopy(Blocks.WEEPING_VINES_PLANT).sound(SoundType.SCULK_VEIN));
+    public static final DeferredBlock<SculkTwistingVinesBlock> SCULK_TWISTING_VINES = BLOCKS.registerBlock(
+            "sculk_twisting_vines", SculkTwistingVinesBlock::new,
+            () -> BlockBehaviour.Properties.ofFullCopy(Blocks.TWISTING_VINES).sound(SoundType.SCULK_VEIN));
+    public static final DeferredBlock<SculkTwistingVinesPlantBlock> SCULK_TWISTING_VINES_PLANT = BLOCKS.registerBlock(
+            "sculk_twisting_vines_plant", SculkTwistingVinesPlantBlock::new,
+            () -> BlockBehaviour.Properties.ofFullCopy(Blocks.TWISTING_VINES_PLANT).sound(SoundType.SCULK_VEIN));
 }
