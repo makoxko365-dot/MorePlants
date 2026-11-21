@@ -1,0 +1,8 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "minecraft:deep_dark"
+  ],
+  "features": "biomedetails:sculk_protrusion_patch",
+  "step": "underground_decoration"
+}
