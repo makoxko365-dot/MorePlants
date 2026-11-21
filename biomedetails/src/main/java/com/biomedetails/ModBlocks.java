@@ -1,6 +1,7 @@
 package com.biomedetails;
 
 import net.minecraft.world.effect.MobEffects;
+import net.minecraft.world.level.block.AmethystClusterBlock;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.BushBlock;
 import net.minecraft.world.level.block.CarvedPumpkinBlock;
@@ -66,4 +67,12 @@ public class ModBlocks {
     public static final DeferredBlock<SculkProtrusionBlock> SCULK_PROTRUSION = BLOCKS.registerBlock(
             "sculk_protrusion", SculkProtrusionBlock::new,
             () -> BlockBehaviour.Properties.ofFullCopy(Blocks.DEAD_TUBE_CORAL).sound(SoundType.SCULK_SENSOR));
+
+    // Brotes de amatista amarillos: mismas propiedades (luz, sonido) y forma que los vanilla
+    public static final DeferredBlock<AmethystClusterBlock> SMALL_YELLOW_AMETHYST_BUD = BLOCKS.registerBlock(
+            "small_yellow_amethyst_bud", props -> new AmethystClusterBlock(3.0F, 4.0F, props),
+            () -> BlockBehaviour.Properties.ofFullCopy(Blocks.SMALL_AMETHYST_BUD));
+    public static final DeferredBlock<AmethystClusterBlock> MEDIUM_YELLOW_AMETHYST_BUD = BLOCKS.registerBlock(
+            "medium_yellow_amethyst_bud", props -> new AmethystClusterBlock(4.0F, 3.0F, props),
+            () -> BlockBehaviour.Properties.ofFullCopy(Blocks.MEDIUM_AMETHYST_BUD));
 }

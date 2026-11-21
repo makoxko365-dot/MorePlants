@@ -28,6 +28,8 @@ public class BiomeDetails {
             event.accept(ModItems.SCULK_WEEPING_VINES.get());
             event.accept(ModItems.SCULK_TWISTING_VINES.get());
             event.accept(ModItems.SCULK_PROTRUSION.get());
+            event.accept(ModItems.SMALL_YELLOW_AMETHYST_BUD.get());
+            event.accept(ModItems.MEDIUM_YELLOW_AMETHYST_BUD.get());
         }
     }
 }
