@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "biomedetails:block/sulfur_crystal_medium"
+  }
+}

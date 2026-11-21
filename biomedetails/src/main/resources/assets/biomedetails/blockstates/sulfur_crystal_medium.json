@@ -1,0 +1,30 @@
+{
+  "variants": {
+    "facing=down": {
+      "model": "biomedetails:block/sulfur_crystal_medium",
+      "x": 180
+    },
+    "facing=east": {
+      "model": "biomedetails:block/sulfur_crystal_medium",
+      "x": 90,
+      "y": 90
+    },
+    "facing=north": {
+      "model": "biomedetails:block/sulfur_crystal_medium",
+      "x": 90
+    },
+    "facing=south": {
+      "model": "biomedetails:block/sulfur_crystal_medium",
+      "x": 90,
+      "y": 180
+    },
+    "facing=up": {
+      "model": "biomedetails:block/sulfur_crystal_medium"
+    },
+    "facing=west": {
+      "model": "biomedetails:block/sulfur_crystal_medium",
+      "x": 90,
+      "y": 270
+    }
+  }
+}
