@@ -13,6 +13,7 @@ public class BiomeDetails {
         ModBlocks.BLOCKS.register(modEventBus);
         ModItems.ITEMS.register(modEventBus);
         ModParticles.PARTICLE_TYPES.register(modEventBus);
+        ModBlockEntities.BLOCK_ENTITY_TYPES.register(modEventBus);
         modEventBus.addListener(this::addCreative);
     }
 
