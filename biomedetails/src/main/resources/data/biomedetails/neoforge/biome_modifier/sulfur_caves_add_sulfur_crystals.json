@@ -1,0 +1,21 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "minecraft:sulfur_caves"
+  ],
+  "features": [
+    "biomedetails:sulfur_crystal_small_up_patch",
+    "biomedetails:sulfur_crystal_small_down_patch",
+    "biomedetails:sulfur_crystal_small_north_patch",
+    "biomedetails:sulfur_crystal_small_south_patch",
+    "biomedetails:sulfur_crystal_small_east_patch",
+    "biomedetails:sulfur_crystal_small_west_patch",
+    "biomedetails:sulfur_crystal_medium_up_patch",
+    "biomedetails:sulfur_crystal_medium_down_patch",
+    "biomedetails:sulfur_crystal_medium_north_patch",
+    "biomedetails:sulfur_crystal_medium_south_patch",
+    "biomedetails:sulfur_crystal_medium_east_patch",
+    "biomedetails:sulfur_crystal_medium_west_patch"
+  ],
+  "step": "underground_decoration"
+}
